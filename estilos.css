@@ -1,0 +1,275 @@
+
+.header{
+background-color:	#1C1C1C; 
+z-index: 999999999; 
+}
+.conteiner{
+width: 100%;
+padding:0;
+margin:0;
+
+
+}
+
+.logo{
+width:18%;
+margin-left: 0px;
+margin-right: 20px;
+
+}
+.bg-secondary {
+	padding: 15px;
+	padding-right: 15px; 
+	padding-left:15px;
+	padding-bottom: 15px;
+	color: white;
+	margin: 5px;
+	text-decoration: none;
+    outline-color: black;
+
+}
+
+.imagePoster {
+	height: 300px;
+	width: 70%;
+	align-items: center;
+	margin: 20px;
+	margin-left: 80px;
+}
+.teste{
+	height: 350px;
+}
+
+.container-fluid{
+    padding:10px;
+	background:	#1C1C1C;
+   
+
+ }
+.g-0{
+padding: 10px;
+
+}
+
+ .navbar{
+ 	padding: 0px;
+  
+
+ }
+.card_area img{
+    padding-top:30px; 
+	width: 100%;
+
+
+}
+
+.card_area {
+    padding-bottom:5px; 
+	padding-right:30px;
+	padding-left:30px;
+	padding-top:20px;
+	margin:0px;
+	background-color: 
+}
+
+.avaliações{
+
+	padding-right:30px;
+	padding-left:30px;
+	padding-top:20px;
+	margin:20px;
+    
+   
+}
+.btn {
+	color: black;
+}
+
+.card_area >div {
+	margin-bottom:10px; 
+	
+}
+
+.footer{
+
+	background:#1C1C1C;
+	padding:8px;
+
+}
+
+.texto_footer {
+
+	text-align: center;
+	color: white;
+
+}
+
+
+.fa-facebook-square{
+	width:300%; 
+}
+.entrevistas{
+	background-color:#D3D3D3;
+    padding-right:30px;
+	padding-left:45px;
+	padding-top:20px;
+	padding-bottom: 40px;
+
+}
+
+.entrevista >h1{
+	padding-bottom: 30px;
+
+}
+
+.video_entrevista{
+
+
+	background-color: ;
+	
+}
+
+
+.video_entrevista>div{
+padding: 10px;
+
+}
+.icones>h1{
+display:inline;
+
+}
+
+
+.img-thumbnail{
+
+	width: 40%;
+	background-color:#D3D3D3;
+
+
+}
+.materia >p{
+
+
+   padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+
+.containerDestaque {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+.containerDestaques {
+	width: 200px;
+	
+}
+.destaque {
+		width: 100%;
+	height: 100%;
+}
+
+
+.novidades_sobre{
+padding:30px; 
+}
+.Novidades >h1{
+/*background-color: red;
+border-radius: 10px;*/
+padding-left:70px;
+	
+}
+
+.titulo_lançamento{
+text-align: center;	
+padding-top: 40px;
+padding-bottom:30px;
+
+}
+.lançamentos >div{
+
+	background-color:#D3D3D3; 
+
+	
+}
+
+.lançamentos{
+
+	margin-right: 1px;
+	
+}
+
+.row {
+text-align: justify;
+line-height: 1.1;
+}
+
+.materia {
+
+}
+
+.materia{
+margin: 0px;
+padding: 20px;
+
+}
+
+.materia >img{
+margin: 20px;
+right: 40%;
+}
+
+#carouselExampleIndicators{
+
+padding: 50px;
+padding-top: 20px;
+}
+
+.texto_lançamentos{
+  
+	padding: 20px;
+	
+
+}
+
+@media (max-width:660px) {
+    .img-thumbnail{
+
+	width: 90%;
+	background-color:#D3D3D3;
+
+
+}
+
+	.header{
+        margin-left: 0px;
+		position:fixed;
+		position: center;
+		padding-right: 30px
+
+	}
+	.navbar{
+
+		position:center;
+		
+	}
+    
+    
+}
+
+@media (max-width: 700px){
+
+	.video > iframe {
+
+		width: 99.9%;
+
+		
+			}
+
+
+}
+

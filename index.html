@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- fontwesome -->
+  <script src="https://kit.fontawesome.com/9a743a77c1.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+
+  <title>Site de filmes</title>
+
+</head>
+
+
+<body>
+
+
+
+  <header class=" header">
+
+
+
+    <!--barra de navegação - inicio -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <img class="logo" src="imagens/logo2.png">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+
+              <a class="badge bg-secondary" aria-current="page" href="#">Lançamentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="badge bg-secondary" aria-current="page" href="#">Em destaque</a>
+            </li>
+            <li class="nav-item">
+              <a class="badge bg-secondary" aria-current="page" href="#">Avaliações</a>
+            </li>
+            <li class="nav-item">
+              <a class="badge bg-secondary" aria-current="page" href="#">Entrevistas & making of</a>
+            </li>
+            <li class="nav-item">
+              <a class="badge bg-secondary" aria-current="page" href="#">Novidades</a>
+            </li>
+          </ul>
+
+
+          <form class="d-flex" id="formPesquisa">
+            <input class="form-control me-3" type="search" placeholder="Pesquisar filmes" aria-label="Search"
+              id="pesquisa">
+            <button class="btn btn-light" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+
+
+    <!--barra de navegação - final -->
+  </header>
+
+
+
+
+  <main class="container">
+
+    <div class="row  lançamentos">
+
+
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+
+
+        </div>
+
+        <h1 class="titulo_lançamento">Cinema</h1>
+        <div id="carouselitens" class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row slide">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="slide">
+                  <div>
+                    <div  class="slide">
+                      <img src="imagens/whiplash.jpg" class="imagePoster" ></img>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-12  col-lg-6">
+                <div class=" row slide teste">
+                  <div>
+                    <div class="row texto_lançamentos">
+                      <h4> Whiplash</h4>
+                      <h8 style="text-align: justify"> <b>Sinopse: </b> Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.
+                      </h8>
+
+                      
+
+
+
+                      <h7><b> Estreia:</b>2014-10-10</h7>
+
+                      <h7><b><br />Avaliação:</b></h7>
+
+                      <h4> &#9733; &#9733; &#9733; &#9733; &#10032;</h4>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <section class="row card_area">
+          <div class="row card_area">
+            <h1>Populares</h1>
+            <div align="Right">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Categoria:Todos
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Aventura</a></li>
+                  <li><a class="dropdown-item" href="#">Romance</a></li>
+                  <li><a class="dropdown-item" href="#">Comédia</a></li>
+                </ul>
+              </div>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item active" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="inserirDestaque" class="row">
+
+
+
+        </div>
+          <div align="Right">
+            <button type="button" class="btn btn-secondary btn-sm"> <i class="fas fa-plus"></i> Carregar mais </button>
+          </div>
+      </div>
+      </section>
+
+
+      <section class="row avaliações">
+
+        <h1>Ultimas avaliações</h1>
+        <div class="col-12 col-sm-12 col-md-4  col-lg-4">
+          <div class="row g-0">
+            <div class="col-md-2 teste">
+              <h1><i align="Right" class="fas fa-user-circle"></i></h1>
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">Camila Castro</h5>
+                <p class="card-text"><b>Avaliação: </b>O site apresenta uma grande qualidade, os melhores filmes pode
+                  ter certeza que irá encontrar por aqui.Além da diversidade de filmes, gostaria de destacar a qualidade
+                  em que eles são apresentados.Estou gostando muito da experiência.</p>
+                <div class="row iconscard">
+                  <h8 align="left">&#9733; &#9733; &#9733; &#9733; &#10032; 08/04/2021 </h8>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+
+          <div class="row g-0">
+            <div class="col-md-2 teste">
+              <h1><i align="Right" class="fas fa-user-circle"></i></h1>
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">Vick Fernandes</h5>
+                <p class="card-text"><b>Avaliação: </b>Estou amando o site , aqui consigo ficar por dentro dos filmes em
+                  lançamento de maneira rápida e fácil.Há muitas opções de filmes de todos as gêneros e para todos os
+                  gostos.Ultimamente estou viciada em ver os de terror.</p>
+                <div class="row iconscard">
+                  <h8 align="left">&#9733; &#9733; &#9733; &#9733; &#10032; 11/04/2021 </h8>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+
+          <div class="row g-0">
+            <div class="col-md-2 teste">
+              <h1><i align="Right" class="fas fa-user-circle"></i></h1>
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">Alex Brito</h5>
+                <p class="card-text"><b>Avaliação: </b>O site é de grande qualidade , consigo encontrar tanto filmes
+                  mais atuais quanto aqueles antigos e clássicos do cinema.Além disso posso ficar por dentro das
+                  novidades do mundo do cinema por meio da seção de novidades.</p>
+                <div class="row iconscard">
+                  <h8 align="left">&#9733; &#9733; &#9733; &#9733; &#10032; 20/04/2021 </h8>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div align="Right">
+          <button type="button" class="btn btn-secondary btn-sm"> <i class="fas fa-plus"></i> Carregar mais </button>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+  <section class="row entrevistas">
+    <div class="row entrevistas">
+      <h1 style="margin-bottom: 30px">Entrevistas & Making of</h1>
+      <div class="col-12 col-sm-12 col-md-4  col-lg-4">
+        <div class="video_entrevista">
+          <div>
+            <div class="ratio ratio-16x9">
+              <iframe width="275" height="157.5" src="https://www.youtube.com/embed/r9nlsaSpFvM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <h5> <br /><b>Filme:</b>Bohemian rhapsody</h5>
+            <h7><b>Diretor:</b>Bryan Singer</h7>
+            <br>
+            <h7><b>Roteiro:</b>Anthony McCarten <b>Estreia:</b>2018</h7>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+
+
+        <div class="video_entrevista">
+          <div>
+            <div class="ratio ratio-16x9">
+              <iframe width="275" height="157.5" src="https://www.youtube.com/embed/0PfH-Zqxq9g"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <h5> <br /><b>Filme:</b>Guerra Infinita</h5>
+            <h7><b>Diretor:</b>Anthony Russo</h7>
+            <br>
+            <h7><b>Roteiro:</b>Chris Markus <b>Estreia:</b>2018</h7>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-12 col-sm-12 col-md-4  col-lg-4">
+
+
+        <div class="video_entrevista">
+          <div>
+            <div class="ratio ratio-16x9">
+              <iframe width="275" height="157.5" src="https://www.youtube.com/embed/mox0_xGO-Do"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <h5> <br /><b>Filme:</b>Coringa</h5>
+            <h7><b>Diretor:</b> Todd Phillips</h7>
+            <br>
+            <h7><b>Roteiro:</b>Scott Silver <b>Estreia:</b>2019</h7>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div align="Right">
+      <button type="button" class="btn btn-secondary btn-sm"> <i class="fas fa-plus"></i> Carregar mais </button>
+    </div>
+
+
+
+
+  </section>
+
+  <main class="container">
+
+    <div class="row">
+      <div class="col-12">
+
+        <section class="row novidades_sobre">
+
+          <div class="col-12 col-sm-12 col-md-9">
+
+            <div class="Novidades">
+              <h1>Novidades</h1>
+              <div class="materia">
+
+                <img align="Left" src="imagens/materia1.jpg" class="img-thumbnail">
+                <div>
+                  <h5>Ator de Hannibal sobre teste para Quarteto Fantástico: “Humilhante”</h5>
+                  <p align=”Right”>Para Vulture, o famoso relembrou o momento. O astro de Hannibal descreveu a
+                    experiência como “humilhante”.Fora isso, Mikkelsen concedeu detalhes. Muitos fãs estão achando a
+                    declaração hilária.</p>
+                  <div>
+                    <span class="badge rounded-pill bg-secondary" style="padding: 10px ">teste</span>
+                    <span class="badge rounded-pill bg-secondary" style="padding: 10px">Fantático</span>
+                    <span class="badge rounded-pill bg-secondary" style="padding: 10px">Hennibal</span>
+                  </div>
+                  <br />
+                  <br />
+                  <hr>
+                </div>
+              </div>
+
+              <div class="materia">
+
+                <img align="Left" src="imagens/materia2.jpg" class="img-thumbnail">
+                <div>
+                  <h5>Capitã Marvel 2 ganha trailer com participação do Homem-Aranha</h5>
+                  <p align=”Right”>No dramático fã-trailer de Capitã Marvel 2, Brie Larson retorna como a heroína para
+                    uma jornada ainda mais épica. O vídeo também conta com a participação de Tom Holland reprisando o
+                    papel de Homem-Aranha.</p>
+
+                  <div>
+                    <span class="badge rounded-pill bg-secondary" style="padding: 10px ">Heroína</span>
+                    <span class="badge rounded-pill bg-secondary" style="padding: 10px">Herois</span>
+                    <span class="badge rounded-pill bg-secondary" style="padding: 10px">Marvel</span>
+                  </div>
+                  <br />
+                  <br />
+                  <hr>
+                </div>
+              </div>
+
+
+              <div class="materia">
+
+                <img align="Left" src="imagens/materia3.jpg" class="img-thumbnail" S>
+                <div>
+                  <h5>Fãs da Marvel enlouquecem com novidade de Guardiões da Galáxia</h5>
+                  <p align=”Right”>
+                    Já se passaram quatro anos desde que Guardiões da Galáxia Vol. 2 estreou, então é seguro dizer que
+                    os fãs da Marvel estão um pouco ansiosos com o próximo longa de James Gunn com Senhor das Estrelas
+                    (Chris Pratt) e o resto da equipe.
+
+                  </p>
+                  <div>
+                    <span class="badge rounded-pill bg-secondary" style="padding: 10px ">fãns</span>
+                    <span class="badge rounded-pill bg-secondary" style="padding: 10px">James Gunn</span>
+                    <span class="badge rounded-pill bg-secondary" style="padding: 10px">Marvel</span>
+                  </div>
+                  <br />
+                  <br />
+                  <hr>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3 ">
+
+            <nav class="nav nav-pills flex-column flex-sm-row">
+              <h1>Sobre</h1>
+
+              <p>Seja bem vindo ao nosso site de filmes, o CinePuc é um site de filmes criado no ano de 2021 e foi
+                produzido pensando em levar para você Filmes de maneira fácil , segura e com a melhor qualidade.A
+                proposta é reunir tanto filmes mais antigos , quanto filmes mais atuais em nossa plataforma, fazendo
+                assim que o úsuario possa encontrar uma grande diversidade de opções de filmes. </p>
+              <div>
+                <h1>Editorial</h1>
+                <h6>Redação: Stephany Carolina</h6>
+                <h6>Pesquisa: Robert Diniz</h6>
+                <h6>Gerente Geral: Carol felix</h6>
+              </div>
+              <div class="icones">
+                <h3> redes sociais:</h3>
+
+                <h1 class="fab fa-facebook-square"></h1>
+                <h1 class="fab fa-twitter"></h1>
+                <h1 class="fab fa-instagram"></h1>
+
+            </nav>
+
+          </div>
+        </section>
+      </div>
+
+      </section>
+  </main>
+
+
+
+
+
+  <footer class=" footer">
+    <div class="container-fluid">
+      <p class="texto_footer">Copyright 2021-Disciplina de Desenvolvimento de interfaces Web-ICEI PUC MINAS <img
+          class="logo" src="imagens/logo2.png">
+      </p>
+    </div>
+  </footer>
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
+
+  <script src="java-script.js"></script>
+
+
+</body>
+
+</html>
